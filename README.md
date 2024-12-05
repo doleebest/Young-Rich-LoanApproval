@@ -5,15 +5,15 @@
 
 ## 😎 Team
 
-심재혁(팀장) : EDA & 데이터 생성 , 웹 애플리케이션 개발
+심재혁(팀장) : EDA & 데이터 생성, 웹 애플리케이션 개발
 
-박지원 : EDA , flan-T5 fine tuning , 웹 애플리케이션 개발
+박지원 : EDA & 데이터 생성 , flan-T5 fine tuning , 웹 애플리케이션 개발
 
-이소정 : EDA , flan-T5 fine tuning
+이소정 : EDA & 데이터 생성, flan-T5 fine tuning 
 
-박혜원 : EDA & 데이터 생성 , Feature Engineering
+박혜원 : EDA & 데이터 생성, Feature Engineering
 
-백지연 : EDA , 연관분석, Zero shot modeling(Reverse Inference)
+백지연 : EDA & 데이터 생성, 연관분석, Zero shot modeling(Reverse Inference) , 웹 애플리케이션 개발
 
 ---
 
@@ -86,7 +86,9 @@ EDA 및 연관분석을 진행하고, 대출 승인 여부와 높은 상관도�
 최종적으로, 역추론 과정에서 정확히 예측된 데이터만을 선별하여 최종 데이터셋에 포함시키며, 이를 통해 모델의 품질과 신뢰도를 높입니다.
 
 ### 4) Modeling
-
+사용 모델 : flan-T5-small
+- sequence classification head가 있는 T5ForSequenceClassification 이용
+- 
 
 
 ### 5) chat bot 
